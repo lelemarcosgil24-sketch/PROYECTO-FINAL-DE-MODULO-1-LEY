@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Hogar</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f3e8ff; /* fondo lila claro */
+            color: #4b0082; /* morado oscuro para texto */
+        }
+
+        header {
+            background-color: #7b5fc0; /* morado medio */
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        nav {
+            background-color: #a17ccf; /* lila */
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+            gap: 20px;
+        }
+
+        .product-card {
+            background-color: #d8bfff; /* lila suave */
+            border-radius: 10px;
+            padding: 15px;
+            width: 250px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            text-align: center;
+            transition: transform 0.2s;
+        }
+
+        .product-card:hover {
+            transform: scale(1.05);
+        }
+
+        .product-card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .product-card h3 {
+            margin: 10px 0 5px 0;
+        }
+
+        .product-card p {
+            font-size: 0.9em;
+            color: #4b0082;
+        }
+
+        footer {
+            background-color: #7b5fc0;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Hogar & Confort</h1>
+    </header>
+
+    <nav>
+        <a href="#">Inicio</a>
+        <a href="#">Productos</a>
+        <a href="#">Contacto</a>
+    </nav>
+
+    <section class="products">
+        <div class="product-card">
+            <img src="https://via.placeholder.com/250x200.png?text=Almohada" alt="Almohada">
+            <h3>Almohada Ergonómica</h3>
+            <p>Almohada de espuma viscoelástica que se adapta a tu cuello y espalda.</p>
+        </div>
+
+        <div class="product-card">
+            <img src="https://via.placeholder.com/250x200.png?text=Velas" alt="Velas Aromáticas">
+            <h3>Velas Aromáticas</h3>
+            <p>Velas de lavanda y vainilla para un ambiente relajante en casa.</p>
+        </div>
+
+        <div class="product-card">
+            <img src="https://via.placeholder.com/250x200.png?text=Manta" alt="Manta de Hogar">
+            <h3>Manta Suave</h3>
+            <p>Manta de felpa lila, perfecta para las noches frías.</p>
+        </div>
+
+        <div class="product-card">
+            <img src="https://via.placeholder.com/250x200.png?text=Lámpara" alt="Lámpara">
+            <h3>Lámpara de Mesa</h3>
+            <p>Lámpara con luz cálida para crear un rincón acogedor.</p>
+        </div>
+
+        <div class="product-card">
+            <img src="https://via.placeholder.com/250x200.png?text=Taza" alt="Taza de Café">
+            <h3>Taza de Cerámica</h3>
+            <p>Taza de cerámica lila ideal para tu café o té matutino.</p>
+        </div>
+    </section>
+
+    <footer>
+        &copy; 2025 Hogar & Confort | Todos los derechos reservados
+    </footer>
+</body>
+</html>
